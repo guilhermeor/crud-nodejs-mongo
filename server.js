@@ -3,7 +3,7 @@ const bodyParser =  require('body-parser')
 const app =  express()
 const ObjectId = require('mongodb').ObjectID
 const MongoClient = require('mongodb').MongoClient 
-const uri = "mongodb://localhost:27017"
+const uri = 'mongodb://mongo:27017'
 
 app.use(bodyParser.urlencoded({extended: false}))
 app.use(express.json())
